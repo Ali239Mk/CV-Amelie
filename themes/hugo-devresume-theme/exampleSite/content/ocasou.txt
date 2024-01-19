@@ -1,0 +1,16 @@
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "www.yourwebsite.com"
+
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/username"
+        title = "username"
+
+
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/username"
+        title = "@username"

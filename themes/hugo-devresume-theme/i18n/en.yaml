@@ -1,0 +1,17 @@
+
+- id: education
+  translation: Education
+- id: experiences
+  translation: Formation
+- id: information
+  translation: Projets
+- id: interests
+  translation: Centres d'intérêt
+- id: languages
+  translation: Langues
+- id: awards
+  translation: Voyages
+- id: projects
+  translation: Expériences
+- id: skills
+  translation: Compétences

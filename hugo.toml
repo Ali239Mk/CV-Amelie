@@ -1,0 +1,313 @@
+# Page settings
+
+baseURL = "https://anneixamelie.pages.dev/"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "Amélie Anneix"
+    description = "Recherche d’alternance - Amélie Anneix"
+
+
+    primaryColor = "#80533e"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Amélie Anneix"
+        tagline = "Étudiante en BUT informatique - 21 ans"
+        avatar = "meoww.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Saint-Avé"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:0615042477"
+        text = "06 15 04 24 77"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:amelie.anneix@gmail.com"
+        text = "amelie.anneix@gmail.com"
+        [[params.contact.list]]
+        icon = "fa fa-car"
+        text = "Permis B et véhicule"
+
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Techniques"
+        [[params.skills.list.items]]
+        details = "Java"
+        [[params.skills.list.items]]
+        details = "Python"
+        [[params.skills.list.items]]
+        details = "SQL"
+        [[params.skills.list.items]]
+        details = "WordPress"
+        [[params.skills.list.items]]
+        details = "C++"
+
+        [[params.skills.list]]
+        title = "Professionnelles"
+        [[params.skills.list.items]]
+        details = "Efficace"
+        [[params.skills.list.items]]
+        details = "Organisation de groupe"
+        [[params.skills.list.items]]
+        details = "Autonome"
+        [[params.skills.list.items]]
+        details = "Ponctuelle"
+        [[params.skills.list.items]]
+        details = "Adaptabilité"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = false
+
+        [[params.education.list]]
+        degree = "MSc in Computer Science"
+        university = "University College London"
+        dates = "2010 - 2011"
+        [[params.education.list]]
+        degree = "BSc Maths and Physics"
+        university = "Imperial College London"
+        dates = "2007 - 2010"
+
+
+
+
+
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "C1"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "B1"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Art"
+        body = "Piano, Chant, Dessin"
+        [[params.interests.list]]
+        name = "Sport"
+        body = "Natation, Danse modern-jazz, Cross-country, Gymnastique, Équitation, Escalade, Musculation"
+        [[params.interests.list]]
+        name = "Culture"
+        body = "Litterature, Musées, Voyages"
+
+
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "Amérique du Nord"
+        body = "Canada, États-Unis"
+        [[params.awards.list]]
+        name = "Europe centrale"
+        body = "Allemagne, Espagne, Italie, Irlande, Pays-Bas"
+        [[params.awards.list]]
+        name = "Afrique du Nord"
+        body = "Tunisie"
+        [[params.awards.list]]
+        name = "Asie"
+        body = "Chine"
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Étudiante motivée par l'apprentissage et la découverte de nouvelles technologies, je suis toujours en quête de nouveaux défis à réussir. Autonome, je sais prendre des initiatives et travailler de manière indépendante. J’aime aussi collaborer en équipe ou en binôme , comme actuellement sur les différents projets à l’IUT de Vannes."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "BUT informatique "
+        dates = "2023 - En cours"
+        company = "IUT de Vannes"
+        details = "Étudiante en première année de BUT Informatique à l'IUT de Vannes, je développe des compétences techniques, méthodologiques et transversales dans le domaine de l'informatique."
+        [[params.experience.list.items]]
+        details = "La programmation en Java et Python"
+        [[params.experience.list.items]]
+        details = "Les bases de données, SQL"
+        [[params.experience.list.items]]
+        details = "Le web, utilisation de WordPress, HTML, PHP, CSS"
+        [[params.experience.list.items]]
+        details = "Économie, gestion, communication"
+
+        [[params.experience.list]]
+        title = "Licence en Mathématiques et Économie"
+        dates = "2020 - 2022"
+        company = "Université de Montréal"
+        details = "Validation d'unités en Mathématiques, Économie et Informatique."
+        [[params.experience.list.items]]
+        details = "Principes d'économie : Apprentissage des concepts fondamentaux de l'économie."
+        [[params.experience.list.items]]
+        details = "Introduction à la microéconomie : Concurrence et marchés."
+        [[params.experience.list.items]]
+        details = "Introduction à la macroéconomie : Équilibre macroéconomique et fluctuations économiques."
+        [[params.experience.list.items]]
+        details = "Théorie microéconomique 1 : Théorie de la décision, du consommateur, du producteur et des marchés."
+        [[params.experience.list.items]]
+        details = "Calcul 1 : Développement des compétences en calcul différentiel et intégral de fonctions de plusieurs variables, telles que les dérivées partielles, les intégrales multiples, etc."
+        [[params.experience.list.items]]
+        details = "Mathématiques discrètes : Apprentissage des concepts fondamentaux des mathématiques discrètes, tels que les ensembles, les fonctions, les algorithmes, etc."
+        [[params.experience.list.items]]
+        details = "Algèbre linéaire : Développement des compétences en algèbre linéaire, telles que les systèmes d'équations linéaires, les matrices, les déterminants, etc."
+        [[params.experience.list.items]]
+        details = "Introduction à la statistique : Analyse et interprétation de données."
+        [[params.experience.list.items]]
+        details = "Structures discrètes en informatique : Mathématiques discrètes pour l'informatique."
+        [[params.experience.list.items]]
+        details = "Programmation scientifique en langage C : Programmation scientifique en langage C."
+        [[params.experience.list.items]]
+        details = "Introduction aux systèmes informatiques : Composants d'un ordinateur, systèmes d'exploitation et Internet."
+
+
+
+        [[params.experience.list]]
+        title = "Baccalauréat Scientifique"
+        dates = "2017 - 2020"
+        company = "Lycée Jeanne-d’Arc St-Ivy"
+        details = "Orienté sciences de l'ingénieur, spécialité mathématiques, section Européenne - Mention Très Bien"
+
+        [[params.experience.list]]
+        title = "Brevet des collèges"
+        dates = "2017"
+        company = "Collège Jean-Pierre Calloc'h"
+        details = "Mention Très Bien"
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Intérimaire"
+        meta = "Interaction"
+        details = "Travail en tant qu’intérimaire dans diverses entreprises via une agence."
+
+        [[params.projects.list]]
+        title = "Restauration"
+        meta = "Montréal | Trattoria Gio"
+        details = "Travail en restauration à Montréal. Occupation de divers postes (hôtesse, cuisine, bar, service…). Clientèle francophone et anglophone."
+
+        [[params.projects.list]]
+        title = "Poste saisonnier"
+        meta = "Locminé | Loïc Dréan"
+        details = "Responsable d’une boulangerie sur deux étés."
+
+        [[params.projects.list]]
+        title = "Organisation et participation à un trek en vélo"
+        meta = "Italie"
+        details = "Organisation du parcours, réservation des héberges et mise en place d'un inventaire de l'équipement nécessaire pour un trek en vélo de 600km. Parme - Rome"
+
+        [[params.projects.list]]
+        title = "Stages et séjours d’immersion"
+        [[params.projects.list.items]]
+        details = "Séjour d’immersion d’un mois en Irlande"
+        [[params.projects.list.items]]
+        details = "Stage Immersion Sciences • Lycée Jeanne d’Arc Pontivy"
+        [[params.projects.list.items]]
+        details = "Echange scolaire avec les Pays-Bas"
+        [[params.projects.list.items]]
+        details = "Séjour d’une semaine dans une famille en Espagne"
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/am%C3%A9lie-anneix-0238a4295"
+        title = "Amélie Anneix"
+
+
+
+
+
+
