@@ -13,7 +13,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 [params]
     author = "Amélie Anneix"
-    description = "Recherche d’alternance - CV Amélie Anneix"
+    description = "Recherche d’alternance - Amélie Anneix"
 
 
     primaryColor = "#80533e"
@@ -142,7 +142,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         body = "Piano, Chant, Dessin"
         [[params.interests.list]]
         name = "Sport"
-        body = "Natation, Danse modern-jazz, Cross-country, Gymnastique, Équitation, Escalade, Musculation"
+        body = "Natation, Danse modern-jazz, Cross-country, Gymnastique, Équitation, Jujitsu, Escalade, Musculation"
         [[params.interests.list]]
         name = "Culture"
         body = "Litterature, Musées, Voyages"
