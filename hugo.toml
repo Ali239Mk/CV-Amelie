@@ -72,6 +72,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "WordPress"
         [[params.skills.list.items]]
         details = "C++"
+        [[params.skills.list.items]]
+        details = "HTLM, CSS"
 
         [[params.skills.list]]
         title = "Professionnelles"
