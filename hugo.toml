@@ -264,7 +264,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.projects.list]]
         title = "Organisation et participation à un trek en vélo"
         meta = "Italie"
-        details = "Organisation du parcours, réservation des héberges et mise en place d'un inventaire de l'équipement nécessaire pour un trek en vélo de 600km. Parme - Rome"
+        details = "Organisation du parcours, réservation des hébergements et mise en place d'un inventaire de l'équipement nécessaire pour un trek en vélo de 600km. Parme - Rome"
 
         [[params.projects.list]]
         title = "Stages et séjours d’immersion"
