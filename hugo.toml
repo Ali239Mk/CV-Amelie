@@ -26,7 +26,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
         name = "Amélie Anneix"
         tagline = "Étudiante en BUT informatique - 21 ans"
-        avatar = "meoww.png"
+        avatar = "pp.png"
 
 
 
@@ -55,8 +55,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
-
-
     [params.skills]
         enable = true
 
@@ -78,18 +76,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list]]
         title = "Professionnelles"
         [[params.skills.list.items]]
-        details = "Efficace"
+        details = "Pontualité"
         [[params.skills.list.items]]
         details = "Organisation de groupe"
         [[params.skills.list.items]]
-        details = "Autonome"
+        details = "Autonomie"
         [[params.skills.list.items]]
-        details = "Ponctuelle"
+        details = "Efficacité"
         [[params.skills.list.items]]
         details = "Adaptabilité"
-
-
-
 
 
 
@@ -110,27 +105,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
-
-
-
-
-
-
-
-
-
     [params.languages]
         enable = true
 
         [[params.languages.list]]
-        name = "English"
-        level = "C1"
+        name = "Anglais"
+        level = "C1 - Communication avancée, compréhension nuancée."
         [[params.languages.list]]
-        name = "Spanish"
-        level = "B1"
-
-
-
+        name = "Espagnol"
+        level = "B1 - Communication efficace, compréhension de base."
 
 
 
@@ -147,7 +130,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         body = "Natation, Danse modern-jazz, Cross-country, Gymnastique, Équitation, Jujitsu, Escalade, Musculation"
         [[params.interests.list]]
         name = "Culture"
-        body = "Litterature, Musées, Voyages"
+        body = "Littérature, Musées, Voyages"
 
 
 
@@ -173,7 +156,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "Étudiante motivée par l'apprentissage et la découverte de nouvelles technologies, je suis toujours en quête de nouveaux défis à réussir. Autonome, je sais prendre des initiatives et travailler de manière indépendante. J’aime aussi collaborer en équipe ou en binôme , comme actuellement sur les différents projets à l’IUT de Vannes."
+        text = "Étudiante motivée par l'apprentissage et la découverte de nouvelles technologies, je suis toujours en quête de nouveaux défis à réussir. Autonome, je sais prendre des initiatives et travailler de manière indépendante. J’aime aussi collaborer en équipe ou en binôme, comme actuellement sur les différents projets à l’IUT de Vannes."
 
 
 
@@ -195,7 +178,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list.items]]
         details = "Les bases de données, SQL"
         [[params.experience.list.items]]
-        details = "Le web, utilisation de WordPress, HTML, PHP, CSS"
+        details = "Le web, utilisation de WordPress, HTML, PHP et CSS"
         [[params.experience.list.items]]
         details = "Économie, gestion, communication"
 
@@ -203,7 +186,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Licence en Mathématiques et Économie"
         dates = "2020 - 2022"
         company = "Université de Montréal"
-        details = "Validation d'unités en Mathématiques, Économie et Informatique."
+        details = "Première et deuxième année réalisées. Validation d'unités en Mathématiques, Économie et Informatique."
         [[params.experience.list.items]]
         details = "Principes d'économie : Apprentissage des concepts fondamentaux de l'économie."
         [[params.experience.list.items]]
@@ -233,7 +216,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Baccalauréat Scientifique"
         dates = "2017 - 2020"
         company = "Lycée Jeanne-d’Arc St-Ivy"
-        details = "Orienté sciences de l'ingénieur, spécialité mathématiques, section Européenne - Mention Très Bien"
+        details = "Sciences de l'ingénieur, spécialité mathématiques, section Européenne - Mention Très Bien"
 
         [[params.experience.list]]
         title = "Brevet des collèges"
@@ -248,53 +231,43 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.projects.list]]
         title = "Intérimaire"
-        meta = "Interaction"
-        details = "Travail en tant qu’intérimaire dans diverses entreprises via une agence."
+        meta = "Interaction | Janvier - Juillet 2023"
+        details = "Travail en tant qu’intérimaire dans diverses entreprises sur une période totale de 7 mois."
 
         [[params.projects.list]]
         title = "Restauration"
-        meta = "Montréal | Trattoria Gio"
-        details = "Travail en restauration à Montréal. Occupation de divers postes (hôtesse, cuisine, bar, service…). Clientèle francophone et anglophone."
+        meta = "Trattoria Gio | Avril - Septembre 2022"
+        details = "Travail en restauration durant 6 mois à Montréal. Occupation de divers postes (hôtesse, cuisine, bar, service…). Clientèle francophone et anglophone."
 
         [[params.projects.list]]
         title = "Poste saisonnier"
-        meta = "Locminé | Loïc Dréan"
-        details = "Responsable d’une boulangerie sur deux étés."
+        meta = "Loïc Dréan | 2020 et 2021"
+        details = "Responsable d’une boulangerie sur deux étés. Respectivement 3 et 2 mois en 2020 et 2021."
 
-        [[params.projects.list]]
-        title = "Organisation et participation à un trek en vélo"
-        meta = "Italie"
-        details = "Organisation du parcours, réservation des hébergements et mise en place d'un inventaire de l'équipement nécessaire pour un trek en vélo de 600km. Parme - Rome"
-
-        [[params.projects.list]]
-        title = "Stages et séjours d’immersion"
-        [[params.projects.list.items]]
-        details = "Séjour d’immersion d’un mois en Irlande"
-        [[params.projects.list.items]]
-        details = "Stage Immersion Sciences • Lycée Jeanne d’Arc Pontivy"
-        [[params.projects.list.items]]
-        details = "Echange scolaire avec les Pays-Bas"
-        [[params.projects.list.items]]
-        details = "Séjour d’une semaine dans une famille en Espagne"
-
+        
 
     [params.information]
-        enable = false
+        enable = true
 
         [[params.information.list]]
-        title = "Papers"
-        [[params.information.list.items]]
-        details = "2018 · Lorem Ipsum"
-        [[params.information.list.items]]
-        details = "2016 · Sed Fringilla"
+        title = "Trek en vélo en Italie"
+        meta = "Parme - Rome | Juillet 2019"
+        details = "Organisation du parcours, réservation des hébergements et mise en place d'un inventaire de l'équipement nécessaire pour le trek en vélo de 600km. "
 
         [[params.information.list]]
-        title = "Interests"
-        details = "Climbing, Snowboarding, Photography, Travelling"
+        title = "Immersion science -  Lycée Jeanne d’Arc Pontivy"
+        meta = "Ile Tudy | Mars 2019"
+        details = "Stage de 5 jours, impulsé par l’académie de Rennes, la région Bretagne et le CNRS. Visites d’entreprises, conférences, ateliers et interventions de professionnels.\nMars 2019 ·  Ile Tudy"
 
+        [[params.information.list]]
+        title = "Séjour d'immersion"
+        meta = "Irlande | Juin 2018"
+        details = "Séjour d'un mois dans une famille en Irlande"
 
-
-
+        [[params.information.list]]
+        title = "Échange scolaire avec les Pays-Bas" 
+        meta = "Pays-Bas | Février-Avril 2018"
+        details = "Séjour d’une semaine au Pays-Bas en février basé sur une correspondance avec un étudiant à qui j'ai pu faire découvrir la Bretagne en avril."
 
 
 
